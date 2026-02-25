@@ -15,6 +15,12 @@
   "peerDependencies": {
     "typescript": "^5.9.3"
   },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
   "private": true,
   "type": "module",
   "dependencies": {

@@ -128,6 +128,13 @@ export const mockCosts: CostItem[] = [
   { id: "cost-005", description: "Container Inspection", amount: 180, currency: "USD", category: "other" },
 ]
 
+export const mockInvoices: Invoice[] = [
+  { id: "inv-001", type: "purchase", reference: "INV-P-2025-0042", amount: 51000, currency: "USD", status: "paid", dueDate: "2025-02-28" },
+  { id: "inv-002", type: "sale", reference: "INV-S-2025-0042", amount: 61500, currency: "USD", status: "sent", dueDate: "2025-03-30" },
+  { id: "inv-003", type: "freight", reference: "INV-F-2025-0042", amount: 2800, currency: "USD", status: "paid", dueDate: "2025-02-15" },
+  { id: "inv-004", type: "purchase", reference: "INV-P-2025-0043", amount: 52500, currency: "USD", status: "draft", dueDate: "2025-03-15" },
+]
+
 // Prototype registry for the homepage
 export interface PrototypeEntry {
   slug: string
