@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+
+@layer base {
+  body {
+    @apply bg-jules-background text-jules-text-primary font-sans text-sm antialiased;
+  }
+}
+
+@layer utilities {
+  .jules-card {
+    @apply bg-white border border-jules-border rounded-md shadow-sm;
+  }
+  .jules-input {
+    @apply border border-jules-border rounded-sm px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-jules-primary/20 focus:border-jules-primary;
+  }
+}

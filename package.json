@@ -1,0 +1,28 @@
+{
+  "name": "jules-prototype-playground",
+  "module": "index.ts",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/node": "^25.3.0",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "autoprefixer": "^10.4.24",
+    "eslint": "^10.0.2",
+    "eslint-config-next": "14",
+    "postcss": "^8.5.6",
+    "tailwindcss": "3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.575.0",
+    "next": "14",
+    "react": "18",
+    "react-dom": "18",
+    "tailwind-merge": "^3.5.0"
+  }
+}
